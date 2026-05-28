@@ -15,12 +15,14 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-        }var birthday = 31
+        }
 
-        birthday = birthday + 10
-        birthday = birthday * 3
-        birthday = birthday - 5
-        birthday = birthday ÷ 2
+        var birthday = 31
+
+        birthday += 10
+        birthday *= 3
+        birthday -= 5
+        birthday /= 2
 
 
     }
