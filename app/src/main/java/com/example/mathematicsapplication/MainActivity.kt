@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
             insets
         }var birthday = 31
 
-        birthday = birthday
+        birthday = birthday + 10
+        birthday = birthday * 3
+        
     }
 }
