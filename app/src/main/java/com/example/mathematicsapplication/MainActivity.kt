@@ -13,6 +13,9 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
         val btnSubmit = findViewById<Button>(R.id.button)
+        val txtTotal =  findViewById<Button>(R.id.button)
+        val edtNum = findViewById<Button>(R.id.button)
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
