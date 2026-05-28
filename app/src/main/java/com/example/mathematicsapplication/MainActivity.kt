@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         birthday = birthday + 10
         birthday = birthday * 3
         birthday = birthday - 5
-        birthday = birthday
+        birthday = birthday ÷ 2
 
 
     }
